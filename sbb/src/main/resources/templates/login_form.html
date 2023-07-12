@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/user/login}" method="post">
+<div>
+  <label for="username">사용자ID</label>
+  <input type="text" name="username" id="username">
+</div>
+  <div>
+    <label for="password">비밀번호</label>
+    <input type="text" name="password" id="password">
+  </div>
+  <button type="submit">로그인</button>
+</form>
+<!--사용자를 조회하는 기능이 힐요함 username값과 password에 뭐가 들어갈지 정해주어ㅑ함-->
+</body>
+</html>
